@@ -1,5 +1,8 @@
 package com.app.model;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Person {
     private Long id;
     private String name;
@@ -26,5 +29,9 @@ public class Person {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public static List<Person> generatePeople() {
+        return new ArrayList<>();
     }
 }
