@@ -13,5 +13,6 @@ public class App
         System.out.println("HELLO FROM GIT 6");
         System.out.println("HELLO FROM GIT 3");
         System.out.println("HELLO FROM GIT 4");
+        System.out.println("HELLO FROM GIT 8");
     }
 }
